@@ -1,5 +1,18 @@
 {
+    "require": {
+        "php": "^7.3"
+    },
     "require-dev": {
         "codeception/codeception": "^3.1"
+    },
+    "autoload": {
+        "Backend\\": "backend/app/",
+        "Frontend\\": "frontend/app/",
+        "Framework\\": "framework/app/"
+    },
+    "autoload-dev": {
+        "BackendTests\\": "backend/tests/",
+        "FrontendTests\\": "frontend/tests/",
+        "FrameworkTests\\": "framework/tests/"
     }
 }
