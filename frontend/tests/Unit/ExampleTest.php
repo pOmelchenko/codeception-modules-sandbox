@@ -1,25 +1,24 @@
-<?php namespace FrontendTests;
+<?php
+
+namespace Frontend\Tests\Unit;
 
 use Codeception\Test\Unit;
+use Frontend\Tests\UnitTester;
 
 class ExampleTest extends Unit
 {
-    /**
-     * @var UnitTester
-     */
-    protected $tester;
-    
-    protected function _before()
+    protected UnitTester $tester;
+
+    protected function _before(): void
     {
     }
 
-    protected function _after()
+    protected function _after(): void
     {
     }
 
-    // tests
     public function testSomeFeature(): void
     {
-        $this->assertTrue(true);
+        self::assertTrue(true);
     }
 }

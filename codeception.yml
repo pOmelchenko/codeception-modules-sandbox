@@ -1,8 +1,9 @@
 include:
-  - backend
-  - frontend
-  - framework
+    - admin
+    - api
+    - core
+    - frontend
 paths:
-  log: common/logs
+    output: var/output
 settings:
-  colors: true
+    colors: true

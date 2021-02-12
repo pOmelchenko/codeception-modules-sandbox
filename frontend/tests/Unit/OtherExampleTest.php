@@ -1,14 +1,12 @@
-<?php namespace FrontendTests;
+<?php namespace Frontend\Tests\Unit;
 
 use Codeception\Test\Unit;
+use Frontend\Tests\UnitTester;
 
 class OtherExampleTest extends Unit
 {
-    /**
-     * @var UnitTester
-     */
-    protected $tester;
-    
+    protected UnitTester $tester;
+
     protected function _before()
     {
     }
@@ -17,10 +15,9 @@ class OtherExampleTest extends Unit
     {
     }
 
-    // tests
     public function testSomeFeature(): void
     {
         $this->tester->wantTo('test assert false');
-        $this->assertFalse(false);
+        self::assertFalse(false);
     }
 }

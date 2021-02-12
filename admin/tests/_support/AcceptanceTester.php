@@ -1,5 +1,5 @@
 <?php
-namespace Frontend\Tests;
+namespace Admin\Tests;
 
 /**
  * Inherited Methods
@@ -16,9 +16,9 @@ namespace Frontend\Tests;
  *
  * @SuppressWarnings(PHPMD)
 */
-class UnitTester extends \Codeception\Actor
+class AcceptanceTester extends \Codeception\Actor
 {
-    use _generated\UnitTesterActions;
+    use _generated\AcceptanceTesterActions;
 
     /**
      * Define custom actions here
