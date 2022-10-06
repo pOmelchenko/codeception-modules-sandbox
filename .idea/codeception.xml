@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Codeception">
+    <option name="configurations">
+      <list>
+        <Configuration>
+          <option name="path" value="$PROJECT_DIR$/tests" />
+        </Configuration>
+        <Configuration>
+          <option name="namespace" value="Admin\Tests" />
+          <option name="path" value="$PROJECT_DIR$/admin/tests" />
+        </Configuration>
+        <Configuration>
+          <option name="namespace" value="Api\Tests" />
+          <option name="path" value="$PROJECT_DIR$/api/tests" />
+        </Configuration>
+        <Configuration>
+          <option name="namespace" value="Core\Tests" />
+          <option name="path" value="$PROJECT_DIR$/core/tests" />
+        </Configuration>
+        <Configuration>
+          <option name="namespace" value="Frontend\Tests" />
+          <option name="path" value="$PROJECT_DIR$/frontend/tests" />
+        </Configuration>
+      </list>
+    </option>
+  </component>
+</project>
